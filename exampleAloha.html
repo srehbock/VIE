@@ -68,7 +68,7 @@
         <script src="vie-aloha.js"></script>
     </head>
     <body>
-        <p>Click on the content below to edit it, then <button id="savebutton">Save</button>, <button id="addbutton">Add items</button> or <button id="tweakbutton">Change via JS</button>.</p>
+        <p>Click on the content below to edit it, then <button id="savebutton">Save</button>, or <button id="tweakbutton">Change via JS</button>.</p>
 
         <div about="http://example.net/blog/" rel="dcterms:hasPart" rev="dcterms:partOf">
             <article typeof="sioc:Post" about="http://example.net/blog/news_item">
@@ -87,6 +87,14 @@
                 <h1 property="dcterms:title">Another item</h1>
                 <div property="sioc:content">
                     <p>Hello, world!</p>
+                </div>
+            </article>
+
+
+			<article typeof="http://rdfs.org/sioc/ns#Post" about="http://example.net/blog/third_news">
+                <h1 property="dcterms:title">Awesome title</h1>
+                <div property="sioc:otherstuff">
+                    <p>Awesome content</p>
                 </div>
             </article>
         </div>
